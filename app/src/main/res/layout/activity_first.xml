@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity">
+
+    <Button
+        android:layout_marginTop="150dp"
+        android:id="@+id/buttonNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PhonesBook"
+        android:textSize="18dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/buttonMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:text="Email" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/buttonAdress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:text="Address" />
+</LinearLayout>
